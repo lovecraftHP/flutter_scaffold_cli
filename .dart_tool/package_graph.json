@@ -1,0 +1,21 @@
+{
+  "roots": [
+    "flutter_scaffold_cli"
+  ],
+  "packages": [
+    {
+      "name": "flutter_scaffold_cli",
+      "version": "0.1.0",
+      "dependencies": [
+        "args"
+      ],
+      "devDependencies": []
+    },
+    {
+      "name": "args",
+      "version": "2.7.0",
+      "dependencies": []
+    }
+  ],
+  "configVersion": 1
+}

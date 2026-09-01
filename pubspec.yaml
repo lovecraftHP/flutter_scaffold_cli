@@ -1,0 +1,18 @@
+name: flutter_scaffold_cli
+description: >
+  CLI tool to scaffold Flutter projects with your standard screens
+  (login, register, forgot password, home, details, profile), Clean
+  Architecture folders (presentation/domain/data, no usecases), Riverpod,
+  AutoRoute, Retrofit, Slang and Skeletonizer already wired up, plus
+  generators for repository + controller pairs.
+version: 0.1.0
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  args: ^2.4.2
+
+executables:
+  fsc: fsc
