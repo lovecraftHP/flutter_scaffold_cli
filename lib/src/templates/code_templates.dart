@@ -83,6 +83,8 @@ class $pascal with _\$$pascal {
 
     return '''
 import 'package:riverpod_annotation/riverpod_annotation.dart';
+
+
 import '../${stateSnake}.dart';
 
 $repoImport'$stateSnake.dart';
